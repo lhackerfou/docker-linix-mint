@@ -1,6 +1,10 @@
 #info git
 
-#pour généré une kye ssh dans mon repertoir #ssh-keygen -t ed25519 -C "poitecourbe@gmail.com"
-#pour voir la clé #cat ~/.ssh/id_ed25519.pub
-
+#pour généré une kye ssh dans mon repertoir 
+ssh-keygen -t ed25519 -C "poitecourbe@gmail.com"
+#pour voir la clé 
+cat ~/.ssh/id_ed25519.pub
+#pour lier mon compte git je tape ces commandes
+git config --global user.name "lhackerfou"
+git config --global user.email "poitecourbe@gmail.com"
 
